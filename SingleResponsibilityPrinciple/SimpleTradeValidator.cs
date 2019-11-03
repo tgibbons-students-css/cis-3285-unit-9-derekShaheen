@@ -35,7 +35,7 @@ namespace SingleResponsibilityPrinciple
             //Request 403 - "As a Traders I want to prevent dangerous trades so that one typo doesn't ruin the company."  
             //Details: Trade amounts must be between 1,000 and 100,000 units. 
             //If the trade is outside these bounds it should be ignored.
-            if (!((tradeAmount > 1000) & (tradeAmount < 100000)))
+            if (!((tradeAmount >= 1000) & (tradeAmount <= 100000)))
             {
                 logger.LogWarning("Trade not a valid amount: '{0}'", tradeAmount);
                 return false;

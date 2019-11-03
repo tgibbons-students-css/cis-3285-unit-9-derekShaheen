@@ -1,0 +1,10 @@
+<log><type>WARN : </type><message>Trade not a valid amount: '999'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '-10000'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '1000000'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '1000001'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '999'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '-10000'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '1000001'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '999'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '-10000'</message></log> 
+<log><type>WARN : </type><message>Trade not a valid amount: '1000001'</message></log> 

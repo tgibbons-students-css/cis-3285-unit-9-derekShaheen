@@ -13,7 +13,7 @@ namespace SingleResponsibilityPrinciple
 
             var logger = new ConsoleLogger();
             var tradeValidator = new SimpleTradeValidator(logger);
-            var tradeDataProvider = new StreamTradeDataProvider(tradeStream);
+            var tradeDataProvider = new URLTradeDataProvider(tradeStream);
             var tradeMapper = new SimpleTradeMapper();
             var tradeParser = new SimpleTradeParser(tradeValidator, tradeMapper);
             var tradeStorage = new AdoNetTradeStorage(logger);
