@@ -6,7 +6,14 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * @author Derek Shaheen
+ * @date 11/3/19
+ * @description Allows the trade processor to take input from a file on the web
+ * 
+*/
+//Request  407 - "As a trader I want to be able to able to read trades from the companies new web 
+//service provider so I can enter trades from different apps."
 namespace SingleResponsibilityPrinciple
 {
     class URLTradeDataProvider : ITradeDataProvider
